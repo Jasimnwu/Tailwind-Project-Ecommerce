@@ -4,13 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Ecommerce</title>
     <link href=" /dist/tailwind.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
-    <div class="container bg-cyan-300 w-auto h-4">
-        <h1 class="font-poppins text-primary">Hello Wor</h1>
-    </div>
+    <!-- /.header start -->
+    <header class="py-4 shadow-sm bg-white">
+        <div class="container flex items-center justify-between">
+            <!-- /.logo -->
+            <div class="logo">
+                <img src="image/logo.svg" class="w-28" alt="">
+            </div>
+            <!-- /.logo end -->
+            <!-- /.search start-->
+            <div class="search w-full max-w-xl relative">
+                <span class="absolute left-4 top-3 text-gray-400"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" class="w-full border-primary border pl-12 py-3 pr-3 focus:outline-none" name="search"
+                    id="search" placeholder="Search">
+                <button
+                    class="font-roboto text-base font-medium bg-primary absolute right-0 top-0 px-4 py-3 border-none text-white hover:bg-transparent hover:text-primary transition">Search</button>
+            </div>
+            <!-- /.search end-->
+            <!-- /.social icon -->
+            <div class="icon flex items-center space-x-4">
+                <a href="#" class=""></a>
+                <a href="#" class=""></a>
+                <a href="#" class=""></a>
+            </div>
+        </div>
+    </header>
+    <!-- /.header end -->
 </body>
 
 </html>
