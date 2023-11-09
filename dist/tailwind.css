@@ -585,7 +585,7 @@ video {
   font-family: 'Poppins', sans-serif;
 }
 
-.text-cyan-300{
+.text-primary{
   --tw-text-opacity: 1;
-  color: rgb(103 232 249 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
